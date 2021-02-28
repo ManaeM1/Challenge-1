@@ -1,10 +1,3 @@
-/* Font */
-@fontface{
-  font-family: 'Michroma';
-  src: url('font/Michroma-Regular.eot');
-}
-
-
 body{
 	background: #1A1A1A;
 	font-family: 'Arial', sans-serif;
@@ -21,7 +14,7 @@ body{
 
 /* Main */
 h1{
-	font-family: Michroma;
+	font-family: Arial;
 	color: #f2f2f2;
 	text-align: center;
 }

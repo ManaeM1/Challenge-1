@@ -1,7 +1,6 @@
 # Challenge-1
- Dit is de eerste opdracht van xt2
+ De eerste opdracht van het vak XT2. 
 
-#Welkom in mijn repo
-XT2 is mijn favo vak.
-De website die ik heb gemaakt is erg mooi.
-Je kunt hem vinden op https://manaem1.github.io/Challenge-1/
+#Welkom
+Het is een dashboard website bedoelt voor passagiers in een spaceshuttles van SpaceX. 
+De link naar de dashboard kun je hier vinden: https://manaem1.github.io/Challenge-1/

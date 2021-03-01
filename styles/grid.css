@@ -481,7 +481,7 @@ p#arrivalBig{
   	}
 	/*arrival*/
 	#route{
-		height: 150px;
+		height: auto;
 	}
 	p.arrival{
 		font-size: 14px;
@@ -489,7 +489,7 @@ p#arrivalBig{
 	p#arrivalBig{
 		font-size: 16px;
 	}
-	v
+
 	/* Temperature */
 	#content5{
 		height: 100px;

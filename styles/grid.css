@@ -481,7 +481,7 @@ p#arrivalBig{
   	}
 	/*arrival*/
 	#route{
-		height: auto;
+		height: 150px;
 	}
 	p.arrival{
 		font-size: 14px;

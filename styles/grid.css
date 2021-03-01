@@ -335,10 +335,10 @@ p#arrivalBig{
 	}
 	/* Main */
 	h1{
-		font-size: 28px;
+		font-size: 23px;
 	}
 	h2{
-		font-size: 22px;
+		font-size: 16px;
 	}
 	.responsive_spaceshuttle{
 		display: block;
@@ -467,7 +467,7 @@ p#arrivalBig{
 		font-size: 22px;
 	}
 	h2{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.responsive_spaceshuttle{
 		display: block;
@@ -484,10 +484,10 @@ p#arrivalBig{
 		height: 150px;
 	}
 	p.arrival{
-		font-size: 16px;
+		font-size: 14px;
 	}
 	p#arrivalBig{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	v
 	/* Temperature */

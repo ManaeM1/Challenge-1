@@ -122,10 +122,71 @@ p#arrivalBig{
 	font-size: 16px;
 }
 
+/* Speed content */
+#content4{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.speed{
+	position: relative;
+	width: 150px;
+	height: 150px;
+}
+.speed svg{
+	position: relative;
+	width: 150px;
+	height: 150px;
+}
+.speed svg circle{
+	width: 150px;
+	height: 150px;
+	fill: none;
+	stroke-width: 3;
+	stroke: #BB86FC;
+	transform: translate(5px, 5px);
+}
+.speed .number{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #BB86FC;
+}
+.speed .number .speed_number{
+	font-size: 50px;
+}
+.speed .number .speed_number .speed_meter{
+	font-size: 12px;
+}
+
+
+
+
 /* Temperature */
 .inside{
 	font-size: 12px;
 }
+.temperature{
+	font-size: 50px;
+	color: #BB86FC;
+	text-align: center;
+	margin: 0;
+	display: inline;
+}
+span{
+	font-size: 20px;
+	color: #8B8B8B;
+	justify-content: center;
+	display: inline;
+}
+
 
 /* Clock */
 #time{
@@ -244,6 +305,13 @@ p#arrivalBig{
 	.inside{
 		font-size: 15px;
 	}
+	.temperature{
+		font-size: 70px;
+	}
+	span{
+		font-size: 40px;
+}
+
 
 	/* Clock */
 	#time{
@@ -361,7 +429,13 @@ p#arrivalBig{
 
 	/* Temperature */
 	.inside{
-	font-size: 15px;
+		font-size: 15px;
+	}
+	.temperature{
+		font-size: 90px;
+	}
+	span{
+		font-size: 50px;
 	}
 
 	/* Clock */

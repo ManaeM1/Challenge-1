@@ -21,25 +21,3 @@ function ut() {
   document.getElementById("time").innerHTML = d.toLocaleTimeString();
   document.getElementById("date").innerHTML = d.toLocaleDateString();
 }
-
-//Fuel
-var myChart = document.getElementById('myChart').getContext('2d');
-var fuelChart = new Chart(myChart, {
-  type:'bar';
-  data: {
-    labels:['Norway', 'Netherlands', 'Iceland', 'Denmark', 'Finland', 'Greese'],
-    datasets:[{
-      Label: 'Fuel price 14 feb 2021'
-      data:[
-        2.045,
-        2.033,
-        1.931,
-        1.930,
-        1.911,
-        1.865]
-    }]
-  },
-  options{},
-
-
-});

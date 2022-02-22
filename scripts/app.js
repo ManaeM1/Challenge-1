@@ -38,6 +38,7 @@ const data = {
     label: 'Fuel price in Europe in Euros 14 feb 2022',
     backgroundColor: ['#BB86FC', '#9b6fd1', '#7b58a6', '#5c437c', '#3c2c51', '#1d1526'],
     borderColor: 'rgb(255, 99, 132)',
+    color: 'white',
     data: [2.045, 2.033, 1.931, 1.930, 1.911, 1.865],
   }]
 };

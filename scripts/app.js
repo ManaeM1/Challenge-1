@@ -71,7 +71,7 @@ const myChart = new Chart(
         datasets: [{
           label: 'Food supply',
           backgroundColor: ['#FEF78E', '#84D4FD', '#F1AE6C', '#93D677', '#FC5D5D', '#3863AF'],
-          borderColor: '#1A1A1A',
+          borderColor: '#3D3D3D',
           data: [80, 98, 70, 65, 55, 50],
         }]
       };

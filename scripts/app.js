@@ -53,3 +53,33 @@ const myChart = new Chart(
   document.getElementById('myChart'),
   config
 );
+
+
+// Food supply circle Chart
+    const circleLabels = [
+        'Appel',
+        'Water',
+        'Brood',
+
+      ];
+
+      const circleData = {
+        labels: circleLabels,
+        datasets: [{
+          label: 'Food supply',
+          backgroundColor: ['#BB86FC', '#7b58a6', '#3c2c51'],
+          borderColor: 'white',
+          data: [2.045, 2.033, 1.931],
+        }]
+      };
+
+      const circleConfig = {
+        type: 'doughnut',
+        data: circleData,
+        options: {}
+      };
+
+      const circleChart = new Chart(
+        document.getElementById('circleChart'),
+        circleConfig
+      );

@@ -148,3 +148,10 @@ hr{
     margin: 20px;
 }
 
+/* Food supply */
+.foodSup{
+	position: relative;
+    width: 253px
+    height: 253px;
+}
+

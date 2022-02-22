@@ -67,7 +67,7 @@ const myChart = new Chart(
       ];
 
       const circleData = {
-        labels:circleLabels,
+        labels: circleLabels,
         datasets: [{
           label: 'Food supply',
           backgroundColor: ['#FEF78E', '#84D4FD', '#F1AE6C', '#93D677', '#FC5D5D', '#3863AF'],

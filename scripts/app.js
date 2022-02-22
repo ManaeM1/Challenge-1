@@ -23,23 +23,23 @@ function ut() {
 }
 
 //Fuel
-const labels = [
-    'Left engine',
-    'Right engine',
-  ];
-
-  const data = {
-    labels: labels,
-    datasets: [{
-      label: 'Fuel',
-      backgroundColor: 'rgb(255, 99, 132)',
-      borderColor: 'rgb(255, 99, 132)',
-      data: [0, 10, 5, 2, 20, 30, 45],
+var myChart = document.getElementById('myChart').getContext('2d');
+var fuelChart = new Chart(myChart, {
+  type:'bar';
+  data: {
+    labels:['Norway', 'Netherlands', 'Iceland', 'Denmark', 'Finland', 'Greese'],
+    datasets:[{
+      Label: 'Fuel price 14 feb 2021'
+      data:[
+        2.045,
+        2.033,
+        1.931,
+        1.930,
+        1.911,
+        1.865]
     }]
-  };
+  },
+  options{},
 
-  const config = {
-    type: 'line',
-    data: data,
-    options: {}
-  };
+
+});

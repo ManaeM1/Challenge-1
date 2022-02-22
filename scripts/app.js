@@ -23,15 +23,32 @@ function ut() {
 }
 
 //Fuel
+const labels = [
+  'Norway',
+  'Netherlands',
+  'Iceland',
+  'Denmark',
+  'Finland',
+  'Greese',
+];
 
-var myChart = document.getElementById('myChart').getContaxt('2d');
-var fuelPriceChart = new Chart(myChart,{
-  type:'bar',
-  data:{
-    labels:['Norway', 'Netherlands', 'Iceland', 'Denmark', 'Finland', 'Greese'],
-    datasets:[{
-      label:'Fuel price in Europe 14 feb 2022',
-      data:[2.045, 2.033, 1.931, 1.930, 1.911, 1.865]
-    }]
-  },
-});
+const data = {
+  labels: labels,
+  datasets: [{
+    label: 'Fuel price in Europe in Euros 14 feb 2022',
+    backgroundColor: ['#BB86FC', '#9b6fd1', '#7b58a6', '#5c437c', '#3c2c51', '#1d1526'],
+    borderColor: 'rgb(255, 99, 132)',
+    data: [2.045, 2.033, 1.931, 1.930, 1.911, 1.865],
+  }]
+};
+
+const config = {
+  type: 'bar',
+  data: data,
+  options: {}
+};
+
+const myChart = new Chart(
+  document.getElementById('myChart'),
+  config
+);

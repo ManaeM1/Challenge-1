@@ -149,7 +149,7 @@ hr{
 }
 
 /* Food supply */
-.foodSup{
+#circleChart{
 	position: relative;
     width: 245px
     height: 245px;

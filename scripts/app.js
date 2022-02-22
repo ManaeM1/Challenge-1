@@ -57,19 +57,22 @@ const myChart = new Chart(
 
 // Food supply circle Chart
     const circleLabels = [
-        'Appel',
+        'Fruit',
         'Water',
-        'Brood',
+        'Bread',
+        'Vegetables',
+        'Meat',
+        'Fish',
 
       ];
 
       const circleData = {
-        labels: circleLabels,
+        labels:
         datasets: [{
           label: 'Food supply',
-          backgroundColor: ['#BB86FC', '#7b58a6', '#3c2c51'],
+          backgroundColor: ['#FEF78E', '#84D4FD', '#F1AE6C', '#93D677', '#FC5D5D', '#3863AF'],
           borderColor: 'white',
-          data: [2.045, 2.033, 1.931],
+          data: [80, 98, 70, 65, 55, 50],
         }]
       };
 

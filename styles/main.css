@@ -137,3 +137,14 @@ hr{
 	color: #8B8B8B;
 	margin-top: 0px;
 }
+
+
+/* Fuel */
+#myChart{
+	display: block;
+    box-sizing: border-box;
+    height: 454px;
+    width: 900.5px;
+    margin: 20px;
+}
+

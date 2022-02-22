@@ -21,3 +21,25 @@ function ut() {
   document.getElementById("time").innerHTML = d.toLocaleTimeString();
   document.getElementById("date").innerHTML = d.toLocaleDateString();
 }
+
+//Fuel
+const labels = [
+    'Left engine',
+    'Right engine',
+  ];
+
+  const data = {
+    labels: labels,
+    datasets: [{
+      label: 'Fuel',
+      backgroundColor: 'rgb(255, 99, 132)',
+      borderColor: 'rgb(255, 99, 132)',
+      data: [0, 10, 5, 2, 20, 30, 45],
+    }]
+  };
+
+  const config = {
+    type: 'line',
+    data: data,
+    options: {}
+  };
